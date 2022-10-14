@@ -500,13 +500,6 @@ For debugging and maintenance purposes you may want access the containers shell.
 :END:
 #+begin_src sh :shebang ""
 #+end_src
-** ../.fossil-settings/crlf-glob :code:
-:PROPERTIES:
-:CUSTOM_ID: ----fossil-settings-crlf-glob
-:END:
-#+begin_src sh :shebang ""
-  *
-#+end_src
 ** ../.github/workflows/on-push.yaml :code:
 :PROPERTIES:
 :CUSTOM_ID: ----github-workflows-on-push-yaml
