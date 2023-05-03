@@ -1,3 +1,4 @@
+
 # Table of Contents
 
 -   [About](#about)
@@ -237,14 +238,14 @@ You can download docker images from dockerhub:
 Clone repository from:
 
 -   fossil:
-
+    
         fossil clone https://chiselapp.com/user/oupfiz5/repository/alt-s6-openacs alt-s6-openacs.fossil
         mkdir alt-s6-openacs
         cd alt-s6-openacs
         fossil open ../alt-s6-openacs.fossil
 
 -   GitHub:
-
+    
         git clone https://github.com/oupfiz5/alt-s6-openacs.git
         cd alt-s6-openacs
 
@@ -524,7 +525,7 @@ Code example from NaviServer configuration file is:
           ipaddress	127.0.0.1
           httpport	8000
           httpsport	""
-
+    
           server     "openacs"
           serverroot	/var/www/$server
           logroot	$serverroot/log/
@@ -579,7 +580,7 @@ Docker-compose uses the following variables for pulling OpenACS image from docke
 
 1.  Put the configuration file to `rootfs/usr/local/ns/conf`
 2.  Run docker compose
-
+    
         NS_CONF="/usr/local/ns/conf/my-config.tcl" docker-compose up
 
 
@@ -668,3 +669,4 @@ For debugging and maintenance purposes you may want access the containers shell.
     docker exec -it alt-s6-openacs_openacs_1 /bin/bash
 
     docker exec -it alt-s6-openacs_postgres_1 /bin/bash
+
